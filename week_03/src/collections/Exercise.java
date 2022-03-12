@@ -30,10 +30,20 @@ public class Exercise {
         elements.remove(index);
     }
 
-    // Task 4
+    // Task 6
+    public static void countKeyValuePairs() {
+        Map<String, Integer> wordOccurrence = new HashMap<String, Integer>();
+        wordOccurrence.put("hello", 20);
+        wordOccurrence.put("dreamix", 10);
+        wordOccurrence.put("course", 14);
+        System.out.println(wordOccurrence);
+        System.out.println(wordOccurrence.size());
+    }
+
 
     public static void main(String[] args) {
-        getElement();
+        // Task 4
+       getElement();
 
         Dog dog1 = new Dog("gosho", 22, 45);
         Dog dog2 = new Dog("pesho", 12, 67);
@@ -53,5 +63,10 @@ public class Exercise {
         // using comparator
         Collections.sort(dogs, new AgeComparator());
         System.out.println("By age: " + dogs);
+
+        Collections.sort(dogs, Comparator
+                .comparing(Dog::getName)
+                .thenComparing(Dog::getAge));
+        System.out.println(dogs);
     }
 }
