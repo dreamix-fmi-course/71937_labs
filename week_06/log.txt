@@ -1,0 +1,13 @@
+Thu Mar 31 18:50:30 EEST 2022 [INFO] - Create new event with name Хъшове
+Thu Mar 31 18:52:51 EEST 2022 [INFO] - Create new event with name Хъшове
+Thu Mar 31 18:55:17 EEST 2022 [INFO] - Create new event with name Хъшове
+Thu Mar 31 19:01:35 EEST 2022 [INFO] - Create new event with name Хъшове
+Thu Mar 31 19:03:44 EEST 2022 [INFO] - Create new event with name Хъшове
+Thu Mar 31 19:04:52 EEST 2022 [INFO] - Create new event with name Хъшове
+Thu Mar 31 19:04:52 EEST 2022 [DEBUG] - DEBUG LOG
+Thu Mar 31 19:22:29 EEST 2022 [INFO] - Create new event with name Хъшове
+Thu Mar 31 19:22:29 EEST 2022 [DEBUG] - DEBUG LOG
+Thu Mar 31 19:23:16 EEST 2022 [DEBUG] - DEBUG LOG
+Thu Mar 31 19:41:43 EEST 2022 [DEBUG] - DEBUG LOG
+Thu Mar 31 19:42:01 EEST 2022 [INFO] - Create new event with name Хъшове
+Thu Mar 31 19:42:01 EEST 2022 [DEBUG] - DEBUG LOG
