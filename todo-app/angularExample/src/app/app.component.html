@@ -1,0 +1,12 @@
+<section>
+  <p>{{title}}</p>
+  <div class="example-label">Basic</div>
+  <div class="example-button-row">
+    <button mat-button>Basic</button>
+    <button mat-button color="primary" (click)="onClick()">Show</button>
+    <button mat-button color="primary" (click)="hide()">Hide</button>
+    <a mat-button href="https://www.google.com/" target="_blank">Link</a>
+  </div>
+  <input type="text" name="name"(input)="inputEvent($event)">
+  <app-item *ngIf="showItem"></app-item>
+</section>

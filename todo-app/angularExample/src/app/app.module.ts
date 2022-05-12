@@ -4,15 +4,21 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
+import {MatButtonModule} from "@angular/material/button";
+import {FormsModule} from "@angular/forms";
+import { ItemComponent } from './item/item.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ItemComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    MatButtonModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
